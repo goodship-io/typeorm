@@ -1,0 +1,17 @@
+
+> typeorm@0.3.24 compile
+> rimraf ./build && tsc
+
+[96msrc/driver/duckdb/DuckDBQueryRunner.ts[0m:[93m149[0m:[93m70[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m149[0m         await broadcaster.broadcast("BeforeQuery", query, parameters)"
+[7m   [0m [91m                                                                     ~[0m
+
+[96msrc/driver/duckdb/DuckDBQueryRunner.ts[0m:[93m149[0m:[93m71[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m149[0m         await broadcaster.broadcast("BeforeQuery", query, parameters)"
+[7m   [0m [91m                                                                      [0m
+
+
+Found 2 errors in the same file, starting at: src/driver/duckdb/DuckDBQueryRunner.ts[90m:149[0m
+

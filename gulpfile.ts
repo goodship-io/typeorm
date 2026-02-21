@@ -227,6 +227,15 @@ export class Gulpfile {
     }
 
     /**
+     * Copies built artifacts from build/package to package root for proper module resolution.
+     */
+    @Task()
+    packageCopyToRoot() {
+        return gulp.src("./build/package/**/*")
+            .pipe(gulp.dest("./"));
+    }
+
+    /**
      * Creates a package that can be published to npm.
      */
     @SequenceTask()
@@ -245,6 +254,7 @@ export class Gulpfile {
                 "packageCopyReadme",
                 "packageCopyShims"
             ],
+            "packageCopyToRoot"
         ];
     }
 

@@ -4,7 +4,7 @@
 
 ### Node ###
 npm-debug.log*
-build/
+# build/ - Temporarily allowing build artifacts for DuckDB driver commit
 coverage/
 *.lcov
 .nyc_output/

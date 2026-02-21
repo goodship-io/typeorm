@@ -1,0 +1,1 @@
+{"version":3,"sources":["../browser/src/driver/duckdb/index.ts"],"names":[],"mappings":"AAAA,cAAc,2BAA2B,CAAA;AACzC,cAAc,gBAAgB,CAAA;AAC9B,cAAc,qBAAqB,CAAA","file":"index.js","sourcesContent":["export * from \"./DuckDBConnectionOptions\"\nexport * from \"./DuckDBDriver\"\nexport * from \"./DuckDBQueryRunner\"\n"],"sourceRoot":"../.."}
